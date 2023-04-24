@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <section class="nav">
+
+                    <a href="index.html">HOME</a>
+                    <a href="aboutme.html" onclick="slideout "   >ABOUT ME</a>
+                    <a href="myjourney.html">MY JOURNEY</a>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                
+        </section>
+    </nav>
+
+    <div class="welcome">
+   
+        <h1>Hello,I am Aryan</h1>
+       </div>
+<div class="background-rectangle">
+    
+</div>
+
+
+<img src="businessman-with-gadget-male-characterin-suit-holding-laptop_277904-7393-removebg-preview (2).png" alt="" >
+<style>
+    .nav{
+        
+        justify-content: space-between;
+        padding: 22px ;
+       
+        justify-content: space-between;
+        text-align: right;
+        position: sticky;
+        margin: 0%;
+        border: 0cm;
+    }
+
+    .nav a{
+        padding-top: 0%;
+        
+        text-decoration: rgb(0, 0, 0);
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+        
+        text-align: right;
+        color: rgb(0, 0, 0);
+        border-bottom: 0px solid red ;
+     
+    }
+.nav a:hover{
+    border-bottom: 1px solid red;
+    
+}
+
+body{
+
+    background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.welcome{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1cm;
+
+}
+
+ img{
+    width: 500px;
+    height:500px ;
+    position: relative;
+    z-index: 2;
+    size: 70px 100px;
+    bottom: 23cm;
+    left: 5cm;
+}
+
+.background-rectangle{
+    animation: slideInTop 3s ;
+    height: 20cm;
+    width: 5cm;
+    background-color: rgb(255, 167, 126);
+
+    position: relative;
+    right: -6cm;
+    bottom: 9cm;
+    z-index: -2; 
+    animation-name: slideInTop;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes slideout{
+    0% {transform: translate(0);}
+    100% {transform: translate(-200);}
+}
+@keyframes slideInTop {
+  0%   {transform: translatex(-100);}
+100%{ transform: translatex(0);}
+}
+
+</style>
+<script>
+   
+    
+</script>
+</body>
+</html>
